@@ -22,3 +22,4 @@ def count(request):
     dic['max_char'] = max_char
     dic['max_num']  = dict[max_char]
     return render(request, 'count.html', dic)
+
